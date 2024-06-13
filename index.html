@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Feedback System</h1>
+    <form id="feedbackForm">
+        <h2>Feedback Form</h2>
+        <label for="name">Enter Your Name </label>
+        <input type="text" id="name">
+        <label for="rating">Choose Rating</label>
+        
+        <select id="ratingValues" required >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <button type="submit" id="submitForm">Submit</button>
+
+    </form>
+    <div id="container">
+        <h2>All Feedbacks</h2>
+        <ul id="feedbackList"></ul>
+    </div>
+    
+    
+</body>
+<script src="index.js"></script>
+</html>
