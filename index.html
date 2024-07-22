@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <h1>Feedback System</h1>
+    <h1 style="border-bottom: solid;">Feedback System</h1>
     <form id="feedbackForm">
-        <h2>Feedback Form</h2>
+        <h2 style="color: red; background-color: antiquewhite;">Feedback Form</h2>
         <label for="name">Enter Your Name </label>
         <input type="text" id="name">
         <label for="rating">Choose Rating</label>
@@ -25,9 +26,18 @@
 
     </form>
     <div id="container">
-        <h2>All Feedbacks</h2>
+        <h2 style="color: red; background-color: antiquewhite;">All Feedbacks</h2>
         <ul id="feedbackList"></ul>
     </div>
+    <div id="ratingStar">
+        <h2 style="color: red; background-color: antiquewhite;">Rating Star</h2>
+        <p>* <span id="oneStarCount">0</span></p>
+        <p>** <span id="twoStarCount">0</span></p>
+        <p>*** <span id="threeStarCount">0</span></p>
+        <p>**** <span id="fourStarCount">0</span></p>
+        <p>***** <span id="fiveStarCount">0</span></p>
+    </div>
+    
     
     
 </body>
